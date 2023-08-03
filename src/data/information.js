@@ -51,6 +51,10 @@ const data = [
         title: "Newsletter Signup",
         link: "https://github.com/paperint/newsletter-sign-up-with-success-message",
       },
+      {
+        title: "Interative CreditCard",
+        link: "https://github.com/paperint/interactive-creditcard",
+      },
     ],
     email: "Tanakit.Kankangboon@gmail.com",
     phone: "088-2669690",
