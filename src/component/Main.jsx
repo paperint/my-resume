@@ -42,7 +42,7 @@ function Main({ accent, secondary }) {
             </ul>
           </div>
         </div>
-        <div className="w-2/4 flex flex-col space-y-12 flex-[2]">
+        <div className="w-full sm:w-2/4 flex flex-col space-y-12 flex-[2]">
           <div>
             <h1 className="text-2xl font-extrabold tracking-wider">About Me</h1>
             <p className="font-light tracking-wider leading-6">
