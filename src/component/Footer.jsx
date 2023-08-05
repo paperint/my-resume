@@ -5,9 +5,9 @@ function Footer({ accent, secondary }) {
   return (
     <footer id="contact-me" style={{ backgroundColor: accent }}>
       <div className="flex flex-col justify-center items-center h-[300px] space-y-5">
-        <h1 className="font-extrabold text-xl sm:text-5xl">Get in touch!</h1>
+        <h1 className="text-xl font-extrabold sm:text-5xl">Get in touch!</h1>
         <div
-          className="flex flex-col justify-center items-center md:flex-row space-x-4 text-lg"
+          className="flex flex-col items-center justify-center space-x-4 text-lg md:flex-row"
           style={{ color: secondary }}
         >
           <p> {data[0].email} </p>
@@ -17,13 +17,13 @@ function Footer({ accent, secondary }) {
         </div>
         <div className="flex space-x-5">
           <div
-            className="w-7 h-7 rounded-full flex justify-center items-center p-4 shadow-md hover:scale-125"
+            className="flex items-center justify-center p-4 rounded-full shadow-md w-7 h-7 hover:scale-125"
             style={{ backgroundColor: secondary }}
           >
             <a href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4"
+                className="w-4 h-4"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -32,10 +32,10 @@ function Footer({ accent, secondary }) {
             </a>
           </div>
           <div
-            className="w-7 h-7 rounded-full flex justify-center items-center p-4 shadow-md hover:scale-125"
+            className="flex items-center justify-center p-4 rounded-full shadow-md w-7 h-7 hover:scale-125"
             style={{ backgroundColor: secondary }}
           >
-            <a href="#">
+            <a href={data[0].linkedIn} target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-4 w-4"
@@ -47,10 +47,10 @@ function Footer({ accent, secondary }) {
             </a>
           </div>
           <div
-            className="w-7 h-7 rounded-full flex justify-center items-center p-4 shadow-md hover:scale-125"
+            className="flex items-center justify-center p-4 rounded-full shadow-md w-7 h-7 hover:scale-125"
             style={{ backgroundColor: secondary }}
           >
-            <a href="#">
+            <a href={data[0].githubLink} target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-4 w-4"
@@ -62,7 +62,7 @@ function Footer({ accent, secondary }) {
             </a>
           </div>
           <div
-            className="w-7 h-7 rounded-full flex justify-center items-center p-4 shadow-md hover:scale-125"
+            className="flex items-center justify-center p-4 rounded-full shadow-md w-7 h-7 hover:scale-125"
             style={{ backgroundColor: secondary }}
           >
             <a href="#">
