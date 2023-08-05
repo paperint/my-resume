@@ -40,8 +40,8 @@ const data = [
     ],
     recentwork: [
       {
-        title: "Agencio Landingpage",
-        link: "https://github.com/paperint/Agencio_Landingpage",
+        title: "Tip Calculator App",
+        link: "https://github.com/paperint/Tip-Calculator",
       },
       {
         title: "QR Code Component",
@@ -59,9 +59,23 @@ const data = [
         title: "Testimonials Grid",
         link: "https://github.com/paperint/testimonials-grid-section",
       },
+      {
+        title: "Agencio Landingpage",
+        link: "https://github.com/paperint/Agencio_Landingpage",
+      },
     ],
     email: "Tanakit.Kankangboon@gmail.com",
     phone: "088-2669690",
+    certificate: [
+      {
+        title: "Python (Basic)",
+        link: "https://www.hackerrank.com/certificates/c95796d20b03",
+      },
+      {
+        title: "SQL (Basic)",
+        link: "https://www.hackerrank.com/certificates/ec39a0086ab3",
+      },
+    ],
   },
 ];
 
