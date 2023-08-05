@@ -66,6 +66,8 @@ const data = [
     ],
     email: "Tanakit.Kankangboon@gmail.com",
     phone: "088-2669690",
+    githubLink: "https://github.com/paperint?tab=repositories",
+    linkedIn: "https://www.linkedin.com/in/tanakit-kankangboon-32329b1a5/",
     certificate: [
       {
         title: "Python (Basic)",
