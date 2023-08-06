@@ -67,6 +67,10 @@ const data = [
         title: "Advice Generator App",
         link: "https://github.com/paperint/Advice-generator-app",
       },
+      {
+        title: "News Homepage",
+        link: "https://github.com/paperint/news-homepage-main",
+      },
     ],
     email: "Tanakit.Kankangboon@gmail.com",
     phone: "088-2669690",
