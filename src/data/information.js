@@ -40,6 +40,14 @@ const data = [
     ],
     recentwork: [
       {
+        title: "Easybank Landingpage",
+        link: "https://github.com/paperint/easybank-landingpage",
+      },
+      {
+        title: "Age Calculator",
+        link: "https://github.com/paperint/age-calculator",
+      },
+      {
         title: "Tip Calculator App",
         link: "https://github.com/paperint/Tip-Calculator",
       },
