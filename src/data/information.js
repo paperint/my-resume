@@ -16,22 +16,30 @@ const data = [
     name: "Tanakit Kankangboon",
     position: "Developer",
     aboutme:
-      "I am a motivated professional with 27 years of experience in accounting and administration. Now, I'm excited to take on a new challenge as a front-end and full-stack developer. I have a strong background in financial management and organization, and I pay great attention to detail. Web development is my passion, and I enjoy coding, creative problem-solving, and creating user-friendly interfaces. I am dedicated to delivering exceptional web experiences and ready to contribute my adaptability, creativity, and strong work ethic to a collaborative team.",
+      "I am a motivated professional with 4 years of experience in accounting andadministration. Now, I'm excited to take on a new challenge as a front-end and full-stack developer. I have a strong background in financial management andorganization, and I pay great attention to detail. Web development is my passion,and I enjoy coding, creative problem-solving, and creating user-friendly interfaces. Iam dedicated to delivering exceptional web experiences and ready to contribute myadaptability, creativity, and strong work ethic to a collaborative team.",
     experience: [
       {
         id: 1,
         company: "Never Sleep Ltd.,Part",
         position: "Administrator & Accountant",
-        description:
-          "my primary responsibility was to address basic issues and inquiries from customers, primarily utilizing the Line Official Account platform. Additionally, I played a key role in coordinating the work among different departments, ensuring smooth collaboration. Furthermore, I also took on some accounting tasks as part of my role.",
+        description: [
+          "Addressed customer inquiries via Line Official Account platform.",
+          "Coordinated inter-departmental work to foster smooth collaboration.",
+          "Assisted in basic accounting tasks alongside primary responsibilities.",
+        ],
         date: "Apr.2020 - Apr.2023",
       },
       {
         id: 2,
         company: "Pro Enterprise Service Ltd.,Part",
         position: "Administrator",
-        description:
-          "I was responsible for various tasks, including managing all paperwork and database systems. I also handled coordination between departments and facilitated their work and activities. Additionally, I sorted and distributed incoming and outgoing mail. Moreover, I was in charge of inventory management.",
+        description: [
+          "Managed paperwork and database systems.",
+          "Coordinated activities and communication across departments.",
+          "Facilitated departmental work processes.",
+          "Sorted and distributed incoming and outgoing mail.",
+          "Oversaw inventory management responsibilities.",
+        ],
         date: "Mar.2019 - Apr.2020",
       },
     ],

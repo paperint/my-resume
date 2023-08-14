@@ -96,10 +96,16 @@ function Main({ accent, secondary }) {
                     {item.date}
                   </p>
                 </div>
-                <div>
-                  <p className="font-light leading-6 tracking-wider">
-                    {item.description}
-                  </p>
+                <div className="mt-2">
+                  <ul className="ml-4 list-disc">
+                    {item.description.map((item, index) => (
+                      <li key={index}>
+                        <p className="font-light leading-6 tracking-wider">
+                          {item}
+                        </p>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             ))}
