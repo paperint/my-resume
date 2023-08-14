@@ -3,7 +3,7 @@ import profile from "../img/cat.png";
 import data from "../data/information";
 import CircleText from "./CircleText";
 
-function Header({ accent, secondary }) {
+function Header({ accent, secondary, setContactOpen, contactOpen }) {
   return (
     <header style={{ backgroundColor: accent }}>
       <div className="flex justify-center items-center flex-col lg:flex-row min-h-[500px] max-lg:h-[700px] max-lg:gap-12">
@@ -31,6 +31,7 @@ function Header({ accent, secondary }) {
           <button
             className="p-2 mt-5 tracking-widest rounded-md m:p-4 hover:scale-125"
             style={{ backgroundColor: secondary }}
+            onClick={() => setContactOpen(!contactOpen)}
           >
             CONTACT ME
           </button>

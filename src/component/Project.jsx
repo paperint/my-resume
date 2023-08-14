@@ -8,10 +8,17 @@ function Project() {
   const navigate = useNavigate();
   const context = useContext(ThemeContext);
   const { primary, accent, secondary } = context;
+
   return (
-    <section className="relative w-full py-12" style={{ backgroundColor: primary }}>
+    <section
+      className="relative w-full py-12"
+      style={{ backgroundColor: primary }}
+    >
       <Customcolor />
-      <button onClick={() => navigate("/")} className="absolute px-4 py-2 text-xl font-medium tracking-widest bg-white top-5 rounded-3xl right-5" >
+      <button
+        onClick={() => navigate("/")}
+        className="absolute px-4 py-2 text-xl font-medium tracking-widest bg-white top-5 rounded-3xl right-5"
+      >
         Home
       </button>
       <div className="w-full mx-auto max-w-7xl">

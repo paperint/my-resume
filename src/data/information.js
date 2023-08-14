@@ -84,13 +84,7 @@ const data = [
         tools: ["Vite", "React", "Tailwindcss"],
         image: tipcalculator,
       },
-      {
-        title: "QR Code Component",
-        link: "https://github.com/paperint/QR-code-component",
-        live: "https://qr-code-component-three-rose.vercel.app/",
-        tools: ["Tailwindcss"],
-        image: qrcode,
-      },
+
       {
         title: "Newsletter Signup",
         link: "https://github.com/paperint/newsletter-sign-up-with-success-message",
@@ -118,6 +112,13 @@ const data = [
         live: "#",
         tools: ["Tailwindcss"],
         image: agencio,
+      },
+      {
+        title: "QR Code Component",
+        link: "https://github.com/paperint/QR-code-component",
+        live: "https://qr-code-component-three-rose.vercel.app/",
+        tools: ["Tailwindcss"],
+        image: qrcode,
       },
       {
         title: "Advice Generator App",
