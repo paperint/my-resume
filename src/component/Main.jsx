@@ -1,7 +1,9 @@
 import React from "react";
 import data from "../data/information";
+import { useNavigate } from "react-router-dom";
 
 function Main({ accent, secondary }) {
+  const navigate = useNavigate();
   return (
     <main>
       <div className="flex flex-col items-start justify-center gap-10 px-10 mx-auto my-20 max-w-screen-2xl sm:flex-row md:px-40">
@@ -49,16 +51,23 @@ function Main({ accent, secondary }) {
               Recent Works
             </h1>
             <ul>
-              {data[0].recentwork.map((item, index) => (
-                <li
-                  key={index}
-                  className="leading-9 tracking-widest border-b-4 border-black rounded-b-sm w-fit border-opacity-40"
-                >
-                  <a href={item.link} target="_blank">
-                    {item.title}
-                  </a>
-                </li>
-              ))}
+              {data[0].recentwork
+                .filter((item, index) => index < 5)
+                .map((item, index) => (
+                  <li
+                    key={index}
+                    className="leading-9 tracking-widest border-b-4 border-black rounded-b-sm w-fit border-opacity-40"
+                  >
+                    <a href={item.link} target="_blank">
+                      {item.title}
+                    </a>
+                  </li>
+                ))}
+              <li className="font-extrabold leading-9 tracking-widest border-b-4 border-black rounded-b-sm w-fit border-opacity-40">
+                <button onClick={() => navigate("/Recentworks")}>
+                  See More
+                </button>
+              </li>
             </ul>
           </div>
         </div>
@@ -103,10 +112,12 @@ function Main({ accent, secondary }) {
             <h1 className="text-2xl font-extrabold tracking-wider">
               Education
             </h1>
-            <div className="flex justify-between font-medium">
-              <p> {data[0].education[0].faculty} </p>
-              <p> {data[0].education[0].graduated} </p>
-            </div>
+            {data[0].education.map((item, index) => (
+              <div key={index} className="flex justify-between font-medium">
+                <p> {item.faculty} </p>
+                <p> {item.graduated} </p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
