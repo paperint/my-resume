@@ -11,7 +11,7 @@ function Project() {
 
   return (
     <section
-      className="relative w-full py-12"
+      className="relative w-full py-20 sm:py-12"
       style={{ backgroundColor: primary }}
     >
       <Customcolor />
