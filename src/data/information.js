@@ -10,6 +10,7 @@ import tipcalculator from "../img/tipcalculator.jpg";
 import todoapp from "../img/todo-app.jpg";
 import agencio from "../img/agencio.png";
 import resume from "../img/resume.png";
+import ecommerce from "../img/ecommerce.jpg";
 
 const data = [
   {
@@ -91,6 +92,13 @@ const data = [
         live: "https://boisterous-marigold-6ea197.netlify.app/",
         tools: ["Vite", "React", "Tailwindcss"],
         image: tipcalculator,
+      },
+      {
+        title: "E-commerce Product Page",
+        link: "https://github.com/paperint/e-commerce-product-page",
+        live: "https://sparkling-axolotl-3b5137.netlify.app/",
+        tools: ["Vite", "React", "Tailwindcss"],
+        image: ecommerce,
       },
 
       {
