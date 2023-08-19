@@ -11,6 +11,7 @@ import todoapp from "../img/todo-app.jpg";
 import agencio from "../img/agencio.png";
 import resume from "../img/resume.png";
 import ecommerce from "../img/ecommerce.jpg";
+import multiStepForm from "../img/multiStep.jpg";
 
 const data = [
   {
@@ -65,6 +66,13 @@ const data = [
       },
     ],
     recentwork: [
+      {
+        title: "Multi Step Form",
+        link: "https://github.com/paperint/multi-step-form",
+        live: "https://merry-granita-5e8c91.netlify.app/",
+        tools: ["Vite", "React", "Tailwindcss"],
+        image: multiStepForm,
+      },
       {
         title: "Easybank Landingpage",
         link: "https://github.com/paperint/easybank-landingpage",
