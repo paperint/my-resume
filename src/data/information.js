@@ -12,6 +12,7 @@ import agencio from "../img/agencio.png";
 import resume from "../img/resume.png";
 import ecommerce from "../img/ecommerce.jpg";
 import multiStepForm from "../img/multiStep.jpg";
+import ipAddress from "../img/ipaddress.jpg";
 
 const data = [
   {
@@ -107,6 +108,13 @@ const data = [
         live: "https://sparkling-axolotl-3b5137.netlify.app/",
         tools: ["Vite", "React", "Tailwindcss"],
         image: ecommerce,
+      },
+      {
+        title: "IP Address Tracking Master",
+        link: "https://github.com/paperint/ip-address-tracker-master",
+        live: "https://tangerine-zuccutto-4a2964.netlify.app/",
+        tools: ["Vite", "React", "Tailwindcss", "Axios"],
+        image: ipAddress,
       },
 
       {
