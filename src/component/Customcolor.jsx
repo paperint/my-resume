@@ -1,12 +1,19 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import randomColor from "../utils/randomColor";
 import { ThemeContext } from "../Context/themeContext";
 
 function Customcolor() {
   const context = useContext(ThemeContext);
-  const { primary, setPrimary, secondary, setSecondary, accent, setAccent } =
-    context;
-  const [isOpen, setIsOpen] = useState(false);
+  const {
+    primary,
+    setPrimary,
+    secondary,
+    setSecondary,
+    accent,
+    setAccent,
+    isOpen,
+    setIsOpen,
+  } = context;
 
   const handlerRandomColor = () => {
     setPrimary(randomColor());
