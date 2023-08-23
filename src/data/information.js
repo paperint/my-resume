@@ -13,6 +13,7 @@ import resume from "../img/resume.png";
 import ecommerce from "../img/ecommerce.jpg";
 import multiStepForm from "../img/multiStep.jpg";
 import ipAddress from "../img/ipaddress.jpg";
+import staticJob from "../img/static-job-listing.jpg";
 
 const data = [
   {
@@ -73,6 +74,13 @@ const data = [
         live: "https://merry-granita-5e8c91.netlify.app/",
         tools: ["Vite", "React", "Tailwindcss"],
         image: multiStepForm,
+      },
+      {
+        title: "Static Job Listing",
+        link: "https://github.com/paperint/static-job-listing",
+        live: "https://dancing-squirrel-25a20f.netlify.app/",
+        tools: ["Vite", "React", "Tailwindcss"],
+        image: staticJob,
       },
       {
         title: "Easybank Landingpage",

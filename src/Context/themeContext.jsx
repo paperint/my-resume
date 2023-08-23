@@ -7,6 +7,7 @@ const ThemeProvider = ({ children }) => {
   const [primary, setPrimary] = useState("#f3e6d8");
   const [secondary, setSecondary] = useState("#c1c0ec");
   const [accent, setAccent] = useState("#34abad");
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <ThemeContext.Provider
       value={{
@@ -17,6 +18,8 @@ const ThemeProvider = ({ children }) => {
         setPrimary,
         accent,
         setAccent,
+        isOpen,
+        setIsOpen,
       }}
     >
       {children}
