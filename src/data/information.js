@@ -14,6 +14,7 @@ import ecommerce from "../assets/img/ecommerce.jpg";
 import multiStepForm from "../assets/img/multiStep.jpg";
 import ipAddress from "../assets/img/ipaddress.jpg";
 import staticJob from "../assets/img/static-job-listing.jpg";
+import restCountry from "../assets/img/restcountry.jpg";
 
 const data = [
   {
@@ -73,7 +74,7 @@ const data = [
         link: "https://github.com/paperint/multi-step-form",
         live: "https://merry-granita-5e8c91.netlify.app/",
         tools: ["Vite", "React", "Tailwindcss"],
-        image: "src/assets/img/multiStep.jpg",
+        image: multiStepForm,
       },
       {
         title: "Static Job Listing",
@@ -87,7 +88,7 @@ const data = [
         link: "https://github.com/paperint/rest-countries-api",
         live: "https://shimmering-macaron-b85fb7.netlify.app/",
         tools: ["Vite", "React", "Tailwindcss", "axios"],
-        image: "src/assets/img/restcountry.jpg",
+        image: restCountry,
       },
       {
         title: "Age Calculator",
