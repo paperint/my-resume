@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../img/cat.png";
+import profile from "../assets/img/cat.png";
 import data from "../data/information";
 import CircleText from "./CircleText";
 
