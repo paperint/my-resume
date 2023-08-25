@@ -1,19 +1,19 @@
-import advicegenrator from "../img/advice-generator-app.jpg";
-import agecalculator from "../img/age-calculator.jpg";
-import creditcard from "../img/creditcard.jpg";
-import easybank from "../img/easybank.jpg";
-import newhomepage from "../img/newhomepage.jpg";
-import newsletter from "../img/newsletter.jpg";
-import qrcode from "../img/qrcode.jpg";
-import testimonial from "../img/testimonial-grid.jpg";
-import tipcalculator from "../img/tipcalculator.jpg";
-import todoapp from "../img/todo-app.jpg";
-import agencio from "../img/agencio.png";
-import resume from "../img/resume.png";
-import ecommerce from "../img/ecommerce.jpg";
-import multiStepForm from "../img/multiStep.jpg";
-import ipAddress from "../img/ipaddress.jpg";
-import staticJob from "../img/static-job-listing.jpg";
+import advicegenrator from "../assets/img/advice-generator-app.jpg";
+import agecalculator from "../assets/img/age-calculator.jpg";
+import creditcard from "../assets/img/creditcard.jpg";
+import easybank from "../assets/img/easybank.jpg";
+import newhomepage from "../assets/img/newhomepage.jpg";
+import newsletter from "../assets/img/newsletter.jpg";
+import qrcode from "../assets/img/qrcode.jpg";
+import testimonial from "../assets/img/testimonial-grid.jpg";
+import tipcalculator from "../assets/img/tipcalculator.jpg";
+import todoapp from "../assets/img/todo-app.jpg";
+import agencio from "../assets/img/agencio.png";
+import resume from "../assets/img/resume.png";
+import ecommerce from "../assets/img/ecommerce.jpg";
+import multiStepForm from "../assets/img/multiStep.jpg";
+import ipAddress from "../assets/img/ipaddress.jpg";
+import staticJob from "../assets/img/static-job-listing.jpg";
 
 const data = [
   {
@@ -73,7 +73,7 @@ const data = [
         link: "https://github.com/paperint/multi-step-form",
         live: "https://merry-granita-5e8c91.netlify.app/",
         tools: ["Vite", "React", "Tailwindcss"],
-        image: multiStepForm,
+        image: "src/assets/img/multiStep.jpg",
       },
       {
         title: "Static Job Listing",
@@ -83,11 +83,11 @@ const data = [
         image: staticJob,
       },
       {
-        title: "Easybank Landingpage",
-        link: "https://github.com/paperint/easybank-landingpage",
-        live: "https://extraordinary-buttercream-315853.netlify.app/",
-        tools: ["Vite", "React", "Tailwindcss"],
-        image: easybank,
+        title: "Rest Countries API",
+        link: "https://github.com/paperint/rest-countries-api",
+        live: "https://shimmering-macaron-b85fb7.netlify.app/",
+        tools: ["Vite", "React", "Tailwindcss", "axios"],
+        image: "src/assets/img/restcountry.jpg",
       },
       {
         title: "Age Calculator",
@@ -102,6 +102,13 @@ const data = [
         live: "https://curious-biscotti-15e8f6.netlify.app/",
         tools: ["Vite", "React", "Tailwindcss"],
         image: todoapp,
+      },
+      {
+        title: "Easybank Landingpage",
+        link: "https://github.com/paperint/easybank-landingpage",
+        live: "https://extraordinary-buttercream-315853.netlify.app/",
+        tools: ["Vite", "React", "Tailwindcss"],
+        image: easybank,
       },
       {
         title: "Tip Calculator App",
