@@ -74,7 +74,7 @@ function Main({ accent, secondary }) {
         <div className="w-full sm:w-2/4 flex flex-col space-y-12 flex-[2]">
           <div>
             <h1 className="text-2xl font-extrabold tracking-wider">About Me</h1>
-            <p className="font-light leading-6 tracking-wider">
+            <p className="font-light leading-6 tracking-wider text-justify">
               {data[0].aboutme}
             </p>
           </div>
@@ -88,8 +88,11 @@ function Main({ accent, secondary }) {
             </h1>
             {data[0].experience.map((item) => (
               <div key={item.id} className="mb-12 last:mb-0">
-                <div className="flex justify-between" style={{ color: accent }}>
-                  <p className="font-bold leading-6 tracking-wider">
+                <div
+                  className="flex justify-between w-full"
+                  style={{ color: accent }}
+                >
+                  <p className="inline-flex flex-wrap items-center gap-2 font-bold leading-6 tracking-wider ">
                     {item.company} - <span> {item.position} </span>
                   </p>
                   <p className="font-bold leading-6 tracking-wider">
@@ -100,7 +103,7 @@ function Main({ accent, secondary }) {
                   <ul className="ml-4 list-disc">
                     {item.description.map((item, index) => (
                       <li key={index}>
-                        <p className="font-light leading-6 tracking-wider">
+                        <p className="font-light leading-6 tracking-wider text-justify">
                           {item}
                         </p>
                       </li>
