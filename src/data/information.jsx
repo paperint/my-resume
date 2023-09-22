@@ -15,6 +15,7 @@ import multiStepForm from "../assets/img/multiStep.jpg";
 import ipAddress from "../assets/img/ipaddress.jpg";
 import staticJob from "../assets/img/static-job-listing.jpg";
 import restCountry from "../assets/img/restcountry.jpg";
+import { BsGithub } from "react-icons/bs";
 
 const data = [
   {
@@ -25,6 +26,60 @@ const data = [
     experience: [
       {
         id: 1,
+        company: "Mini Project (On Progress)",
+        position: (
+          <>
+            <a
+              className="inline-flex items-center gap-2 underline underline-offset-2"
+              href="https://github.com/Simbly7961/NEATLY-Salmon"
+            >
+              Neatly Hotel <BsGithub />
+            </a>{" "}
+          </>
+        ),
+        description: [
+          <p>
+            <strong style={{ fontWeight: "bold" }}>Search System: </strong>
+            Created an efficient room search system with detailed room
+            information.
+          </p>,
+          <p>
+            <strong style={{ fontWeight: "bold" }}>Preview Feature: </strong>
+            Developed a random room preview for quick user decision-making.
+          </p>,
+          <p>
+            <strong style={{ fontWeight: "bold" }}>Authentication: </strong>
+            Integrated Supabase authentication for secure user registration and
+            login.
+          </p>,
+          <p>
+            <strong style={{ fontWeight: "bold" }}>Avatar Management: </strong>
+            Enabled avatar uploads and downloads for user personalization.
+          </p>,
+          <p>
+            <strong style={{ fontWeight: "bold" }}>Multi-Form Booking: </strong>
+            Designed a versatile booking system with room availability queries
+            and reservations.
+          </p>,
+          <p>
+            <strong style={{ fontWeight: "bold" }}>Payment Gateway: </strong>
+            Integrated Omise for secure payment processing.
+          </p>,
+          <p>
+            <strong style={{ fontWeight: "bold" }}>Booking History: </strong>
+            Implemented user-friendly booking history with modification and
+            cancellation options.
+          </p>,
+          <p>
+            <strong style={{ fontWeight: "bold" }}>Admin Dashboard: </strong>
+            Developed an admin dashboard for room management, including price
+            adjustments and file uploads.
+          </p>,
+        ],
+        date: "NOW",
+      },
+      {
+        id: 2,
         company: "Never Sleep Ltd.,Part",
         position: "Administrator & Accountant",
         description: [
@@ -35,7 +90,7 @@ const data = [
         date: "Apr.2020 - Apr.2023",
       },
       {
-        id: 2,
+        id: 3,
         company: "Pro Enterprise Service Ltd.,Part",
         position: "Administrator",
         description: [
@@ -53,7 +108,11 @@ const data = [
       "CSS",
       "Tailwinds",
       "React",
+      "NextJS",
       "Javascript",
+      "Postgresql",
+      "MongoDB",
+      "Supabase",
       "Python",
       "Excel",
       "SQL",
@@ -202,6 +261,10 @@ const data = [
       {
         title: "SQL (Basic)",
         link: "https://www.hackerrank.com/certificates/ec39a0086ab3",
+      },
+      {
+        title: "English Test By EF SET",
+        link: "https://www.efset.org/cert/YcomDP",
       },
     ],
   },
