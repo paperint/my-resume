@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CircleText({ secondary }) {
   return (
-    <div className="absolute -top-5 right-0 sm:-right-5 md:bottom-0">
+    <div className="absolute bottom-0 right-0 sm:-top-5 sm:right-5 ">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="w-16 h-16 sm:w-32 sm:h-32"
