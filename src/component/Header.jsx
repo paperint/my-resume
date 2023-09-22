@@ -1,23 +1,23 @@
 import React from "react";
-import profile from "../assets/img/cat.png";
+import profile from "../assets/img/profile.jpg";
 import data from "../data/information";
 import CircleText from "./CircleText";
 
 function Header({ accent, secondary, setContactOpen, contactOpen }) {
   return (
     <header style={{ backgroundColor: accent }}>
-      <div className="flex justify-center items-center flex-col lg:flex-row min-h-[500px] max-lg:h-[700px] max-lg:gap-12">
-        <div className="relative w-5/12">
-          <div className="relative mx-auto w-fit">
+      <div className="flex justify-center items-center flex-col lg:flex-row min-h-[500px] max-lg:h-[700px] max-lg:gap-12 gap-12">
+        <div className="relative">
+          <div className="relative">
             <img
               src={profile}
               alt="profile-img"
-              className="object-contain w-full max-w-xs mx-auto rounded-full max-h-80"
+              className="object-cover border border-gray-100 rounded-full shadow-sm w-44 h-44 sm:w-96 sm:h-96 "
             />
             <CircleText secondary={secondary} />
           </div>
         </div>
-        <div className="w-5/12 space-y-5 text-center lg:text-left">
+        <div className="space-y-12 text-center lg:text-left">
           <p
             className="tracking-widest lg:text-xl"
             style={{ color: secondary }}
