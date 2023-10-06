@@ -5,8 +5,8 @@ import CircleText from "./CircleText";
 
 function Header({ accent, secondary, setContactOpen, contactOpen }) {
   return (
-    <header style={{ backgroundColor: accent }}>
-      <div className="flex justify-center items-center flex-col lg:flex-row min-h-[500px] max-lg:h-[700px] max-lg:gap-12 gap-12">
+    <header style={{ backgroundColor: accent }} className="p-6">
+      <div className="flex justify-center items-center flex-col lg:flex-row min-h-[500px] max-sm:h-[500px] max-lg:h-[700px] max-lg:gap-12 gap-12 mx-auto">
         <div className="relative">
           <div className="relative">
             <img
@@ -17,7 +17,7 @@ function Header({ accent, secondary, setContactOpen, contactOpen }) {
             <CircleText secondary={secondary} />
           </div>
         </div>
-        <div className="space-y-12 text-center lg:text-left">
+        <div className="w-full space-y-6 text-center sm:max-w-sm xl:max-w-2xl lg:space-y-12 lg:text-left">
           <p
             className="tracking-widest lg:text-xl"
             style={{ color: secondary }}
@@ -29,7 +29,7 @@ function Header({ accent, secondary, setContactOpen, contactOpen }) {
           </h1>
 
           <button
-            className="p-2 mt-5 tracking-widest rounded-md m:p-4 hover:scale-125"
+            className="p-2 mt-5 tracking-widest rounded-md md:p-4 hover:scale-125"
             style={{ backgroundColor: secondary }}
             onClick={() => setContactOpen(!contactOpen)}
           >
