@@ -26,7 +26,7 @@ const data = [
     experience: [
       {
         id: 1,
-        company: "Mini Project (On Progress)",
+        company: "Mini Project",
         position: (
           <>
             <a
@@ -74,6 +74,10 @@ const data = [
             <strong style={{ fontWeight: "bold" }}>Admin Dashboard: </strong>
             Developed an admin dashboard for room management, including price
             adjustments and file uploads.
+          </p>,
+          <p>
+            <strong style={{ fontWeight: "bold" }}>Notification: </strong>
+            Delevop notification to let user know checkin and checkout date.
           </p>,
         ],
         date: "NOW",

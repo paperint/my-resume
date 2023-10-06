@@ -7,7 +7,7 @@ function Main({ accent, secondary }) {
   return (
     <main>
       <div className="flex flex-col items-start justify-center gap-10 px-10 mx-auto my-20 max-w-screen-2xl sm:flex-row md:px-40">
-        <div className="flex flex-col flex-1 w-1/4 h-full p-2 space-y-20 max-sm:order-2">
+        <div className="flex flex-col flex-1 w-full h-full p-2 space-y-20 sm:w-1/4 max-sm:order-2">
           <div className="space-y-5">
             <h1
               className="text-2xl font-extrabold tracking-wider"
