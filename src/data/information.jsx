@@ -15,6 +15,7 @@ import multiStepForm from "../assets/img/multiStep.jpg";
 import ipAddress from "../assets/img/ipaddress.jpg";
 import staticJob from "../assets/img/static-job-listing.jpg";
 import restCountry from "../assets/img/restcountry.jpg";
+import register from "../assets/img/RegisterForm.png";
 import { BsGithub } from "react-icons/bs";
 
 const data = [
@@ -132,6 +133,13 @@ const data = [
       },
     ],
     recentwork: [
+      {
+        title: "Register Form",
+        link: "https://github.com/paperint/registerform",
+        live: "https://registerform-kappa.vercel.app/",
+        tools: ["NextJS", "Typescript", "React-hook-form", "Supabase"],
+        image: register,
+      },
       {
         title: "Multi Step Form",
         link: "https://github.com/paperint/multi-step-form",
