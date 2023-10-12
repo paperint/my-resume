@@ -16,6 +16,7 @@ import ipAddress from "../assets/img/ipaddress.jpg";
 import staticJob from "../assets/img/static-job-listing.jpg";
 import restCountry from "../assets/img/restcountry.jpg";
 import register from "../assets/img/RegisterForm.png";
+import population from "../assets/img/populationgrowth.png";
 import { BsGithub } from "react-icons/bs";
 
 const data = [
@@ -139,6 +140,13 @@ const data = [
         live: "https://registerform-kappa.vercel.app/",
         tools: ["NextJS", "Typescript", "React-hook-form", "Supabase"],
         image: register,
+      },
+      {
+        title: "Population Growth",
+        link: "https://github.com/paperint/Countrypopulation",
+        live: "https://countrypopulation-gules.vercel.app/",
+        tools: ["NextJS", "PostgreSQL", "Tailwindcss", "ChartJS"],
+        image: population,
       },
       {
         title: "Multi Step Form",
