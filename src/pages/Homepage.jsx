@@ -3,6 +3,7 @@ import Header from "../component/Header";
 import Main from "../component/Main";
 import Footer from "../component/Footer";
 import Customcolor from "../component/Customcolor";
+import Navbar from "../component/Navbar";
 import { ThemeContext } from "../Context/themeContext";
 import Address from "../component/Address";
 import "../App.css";
@@ -14,6 +15,7 @@ function Homepage() {
 
   return (
     <div style={{ backgroundColor: primary }}>
+      <Navbar />
       <Customcolor />
       {contactOpen && (
         <Address setContactOpen={setContactOpen} contactOpen={contactOpen} />
