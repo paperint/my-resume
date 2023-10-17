@@ -19,7 +19,7 @@ function Header({ accent, secondary, setContactOpen, contactOpen }) {
         </div>
         <div className="w-full space-y-6 text-center sm:max-w-sm xl:max-w-2xl lg:space-y-12 lg:text-left">
           <p
-            className="tracking-widest lg:text-xl"
+            className="font-medium tracking-widest lg:text-xl"
             style={{ color: secondary }}
           >
             {data[0].position}

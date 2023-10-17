@@ -38,7 +38,7 @@ function Footer({ accent, secondary }) {
             <a href={data[0].linkedIn} target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-4 w-4"
+                className="w-4 h-4"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -53,7 +53,7 @@ function Footer({ accent, secondary }) {
             <a href={data[0].githubLink} target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-4 w-4"
+                className="w-4 h-4"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -68,7 +68,7 @@ function Footer({ accent, secondary }) {
             <a href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-4 w-4"
+                className="w-4 h-4"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >

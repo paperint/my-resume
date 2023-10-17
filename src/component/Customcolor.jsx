@@ -15,6 +15,25 @@ function Customcolor() {
     setIsOpen,
   } = context;
 
+  function rgbToHex(rgbString) {
+    const match = rgbString.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+
+    if (match) {
+      const r = parseInt(match[1], 10);
+      const g = parseInt(match[2], 10);
+      const b = parseInt(match[3], 10);
+
+      // Convert to hex
+      const hexR = r.toString(16).padStart(2, "0");
+      const hexG = g.toString(16).padStart(2, "0");
+      const hexB = b.toString(16).padStart(2, "0");
+
+      return `#${hexR}${hexG}${hexB}`;
+    } else {
+      return null;
+    }
+  }
+
   const handlerRandomColor = () => {
     setPrimary(randomColor());
     setSecondary(randomColor());
@@ -35,13 +54,13 @@ function Customcolor() {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
-                class="w-8 h-8"
+                className="w-8 h-8"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"
                 />
               </svg>
@@ -64,7 +83,7 @@ function Customcolor() {
                 <h1>Primary</h1>
                 <input
                   type="color"
-                  value={primary}
+                  value={rgbToHex(primary)}
                   onChange={(e) => setPrimary(e.target.value)}
                   className="cursor-pointer"
                 />
@@ -73,7 +92,7 @@ function Customcolor() {
                 <h1>Secondary</h1>
                 <input
                   type="color"
-                  value={secondary}
+                  value={rgbToHex(secondary)}
                   onChange={(e) => setSecondary(e.target.value)}
                   className="cursor-pointer"
                 />
@@ -82,7 +101,7 @@ function Customcolor() {
                 <h1>Accent</h1>
                 <input
                   type="color"
-                  value={accent}
+                  value={rgbToHex(accent)}
                   placeholder="Accent"
                   onChange={(e) => setAccent(e.target.value)}
                   className="cursor-pointer"

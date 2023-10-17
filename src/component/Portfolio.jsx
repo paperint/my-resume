@@ -1,15 +1,14 @@
 import React, { useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import data from "../data/information";
 import { ThemeContext } from "../Context/themeContext";
-import Customcolor from "./Customcolor";
 import useConvertRgb from "../hook/useConvertRgb";
-import Navbar from "./Navbar";
-import Framer from "./Framer";
 
-function Project() {
+function Portfolio() {
+  const navigate = useNavigate();
   const { extractRgbValues } = useConvertRgb();
   const context = useContext(ThemeContext);
-  const { primary, accent, secondary } = context;
+  const { accent, secondary } = context;
   const { r, g, b } = extractRgbValues(accent);
 
   const divStyle = {
@@ -22,21 +21,20 @@ function Project() {
   };
 
   return (
-    <section className="relative w-full" style={{ backgroundColor: primary }}>
-      <Navbar />
-      <Customcolor />
-      <div className="w-full mx-auto max-w-7xl">
+    <section id="portfolio" className="w-full p-6 mx-auto max-w-7xl">
+      <article>
         <h2
           className="w-full max-w-6xl p-6 mx-auto text-4xl font-black tracking-wider underline underline-offset-4"
           style={{ color: secondary }}
         >
           Portfolio
         </h2>
-        {data[0].recentwork.map((item, index) => (
-          <Framer>
+        {data[0].recentwork
+          .filter((item, index) => index < 5)
+          .map((item, index) => (
             <div
-              key={index}
               className="flex flex-col justify-center w-full max-w-6xl p-6 mx-auto gap-9 md:flex-row md:gap-28"
+              key={index}
             >
               {/* image */}
               <div style={divStyle} className="flex-1 rounded-md">
@@ -88,11 +86,19 @@ function Project() {
                 </div>
               </div>
             </div>
-          </Framer>
-        ))}
-      </div>
+          ))}
+        <div className="flex items-center justify-center w-full my-10">
+          <button
+            onClick={() => navigate("/Recentworks")}
+            className="px-4 py-2 text-sm font-bold text-center rounded-md active:scale-95"
+            style={{ backgroundColor: accent }}
+          >
+            View More
+          </button>
+        </div>
+      </article>
     </section>
   );
 }
 
-export default Project;
+export default Portfolio;

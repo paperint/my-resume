@@ -18,6 +18,7 @@ import restCountry from "../assets/img/restcountry.jpg";
 import register from "../assets/img/RegisterForm.png";
 import population from "../assets/img/populationgrowth.png";
 import { BsGithub } from "react-icons/bs";
+import neatly from "../assets/img/neatlyhotel.svg";
 
 const data = [
   {
@@ -134,6 +135,22 @@ const data = [
       },
     ],
     recentwork: [
+      {
+        title: "Neatly Hotel",
+        link: "https://github.com/Simbly7961/NEATLY-Salmon",
+        live: "https://neatly-salmon.vercel.app/",
+        tools: [
+          "NextJS",
+          "NodeJS",
+          "Express",
+          "PostgreSQL",
+          "Supabase",
+          "Tailwindcss",
+          "React-hook-form",
+          "Shadcn",
+        ],
+        image: neatly,
+      },
       {
         title: "Register Form",
         link: "https://github.com/paperint/registerform",
