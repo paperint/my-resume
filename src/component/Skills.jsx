@@ -25,7 +25,7 @@ function Skills({ accent, secondary }) {
                     <img
                       src={item.image}
                       alt={item.lang}
-                      className="w-16 h-16 mb-4"
+                      className="w-16 h-16 mx-auto mb-4"
                     />
                     <p className="text-sm text-center"> {item.lang} </p>
                   </li>
