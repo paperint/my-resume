@@ -67,7 +67,11 @@ const skillset = [
         image: express,
       },
       {
-        lang: "Python",
+        lang: "Sql",
+        image: sql,
+      },
+      {
+        lang: "Python (Basic)",
         image: python,
       },
     ],
@@ -87,10 +91,7 @@ const skillset = [
         lang: "Express",
         image: express,
       },
-      {
-        lang: "Sql",
-        image: sql,
-      },
+
       {
         lang: "Supabase",
         image: supabase,
