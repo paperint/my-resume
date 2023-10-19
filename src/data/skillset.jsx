@@ -88,11 +88,6 @@ const skillset = [
         image: cypress,
       },
       {
-        lang: "Express",
-        image: express,
-      },
-
-      {
         lang: "Supabase",
         image: supabase,
       },
