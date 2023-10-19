@@ -16,7 +16,7 @@ function AboutMe({ accent, secondary }) {
           {data[0].aboutme}
         </p>
         <Link
-          to="https://uyzagsjpoenqdjnvtqse.supabase.co/storage/v1/object/sign/portfolio/Resume_Tanakit%20(1).pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwb3J0Zm9saW8vUmVzdW1lX1RhbmFraXQgKDEpLnBkZiIsImlhdCI6MTY5NzcwNjcxOSwiZXhwIjoxNzI5MjQyNzE5fQ.qlpPFTQpZBUeaNqLKDCFaPhCUsLdg-d12dUgtuvrazA&t=2023-10-19T09%3A12%3A01.472Z"
+          to="https://uyzagsjpoenqdjnvtqse.supabase.co/storage/v1/object/sign/portfolio/Tanakit%20Kanakangboon.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwb3J0Zm9saW8vVGFuYWtpdCBLYW5ha2FuZ2Jvb24ucGRmIiwiaWF0IjoxNjk3NzA4NzczLCJleHAiOjE3MjkyNDQ3NzN9.-xkuYxMFUGFdr-bi4IQ1R-yNc0nPfh8nBPZyL8nLa0U&t=2023-10-19T09%3A46%3A14.855Z"
           target="_blank"
         >
           <button
