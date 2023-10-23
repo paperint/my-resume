@@ -19,6 +19,7 @@ import register from "../assets/img/RegisterForm.png";
 import population from "../assets/img/populationgrowth.png";
 import { BsGithub } from "react-icons/bs";
 import neatly from "../assets/img/neatlyhotel.svg";
+import generator from "../assets/img/generatorpassword.png";
 
 const data = [
   {
@@ -171,6 +172,13 @@ const data = [
         live: "https://merry-granita-5e8c91.netlify.app/",
         tools: ["Vite", "React", "Tailwindcss"],
         image: multiStepForm,
+      },
+      {
+        title: "Generater Password",
+        link: "https://github.com/paperint/generatepassword",
+        live: "https://generatepassword-two.vercel.app/",
+        tools: ["VueJS", "Tailwindcss", "DaisyUI"],
+        image: generator,
       },
       {
         title: "Static Job Listing",
