@@ -12,12 +12,14 @@ function AboutMe({ accent, secondary }) {
         >
           About Me
         </h2>
-        <p className="font-light leading-6 tracking-wider text-justify">
-          {data[0].aboutme}
+        <p className="font-light leading-6 tracking-wider text-justify hyphens-auto [word-spacing:-2px]">
+          {" "}
+          {data[0].aboutme}{" "}
         </p>
         <Link
           to="https://uyzagsjpoenqdjnvtqse.supabase.co/storage/v1/object/sign/portfolio/TanakitResume?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwb3J0Zm9saW8vVGFuYWtpdFJlc3VtZSIsImlhdCI6MTY5ODMwNzQzMywiZXhwIjoxNzI5ODQzNDMzfQ.QhnF7J9HW_kkW3CPJ89IsV3kpTSN7EOI9uW831ddRqg&t=2023-10-26T08%3A03%3A52.628Z"
           target="_blank"
+          className="w-fit"
         >
           <button
             type="button"

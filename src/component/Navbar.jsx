@@ -34,7 +34,6 @@ function Navbar() {
       }
     };
 
-    console.log("log test");
     postLog();
   }, []);
 
