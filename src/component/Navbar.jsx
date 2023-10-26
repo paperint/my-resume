@@ -6,7 +6,7 @@ import { Link, animateScroll } from "react-scroll";
 function Navbar() {
   const context = useContext(ThemeContext);
   const navigate = useNavigate();
-  const { primary, accent, secondary } = context;
+  const { primary } = context;
   const goBack = () => {
     if (window.location.pathname !== "/") {
       navigate("/");
@@ -25,7 +25,7 @@ function Navbar() {
     >
       <section className="w-full p-6 mx-auto max-w-7xl">
         <ul className="flex items-center justify-center gap-12">
-          <Link onClick={() => animateScroll.scrollToTop(options)}>
+          <div onClick={() => animateScroll.scrollToTop(options)}>
             <li
               onClick={() => {
                 goBack();
@@ -34,7 +34,7 @@ function Navbar() {
             >
               Home
             </li>
-          </Link>
+          </div>
           <Link
             activeClass="active"
             to="aboutme"
