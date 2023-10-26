@@ -1,11 +1,13 @@
-import React, { useContext } from "react";
+import React, { useContext, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { ThemeContext } from "../Context/themeContext";
 import { Link, animateScroll } from "react-scroll";
+import axios from "axios";
 
 function Navbar() {
   const context = useContext(ThemeContext);
   const navigate = useNavigate();
+  const startWeb = useRef(false);
   const { primary } = context;
   const goBack = () => {
     if (window.location.pathname !== "/") {
@@ -17,6 +19,24 @@ function Navbar() {
     duration: 500,
     smooth: true,
   };
+
+  useEffect(() => {
+    const postLog = async () => {
+      if (!startWeb.current) {
+        try {
+          await axios.post(`${import.meta.env.VITE_API}/log/`, {
+            txt: new Date(),
+          });
+          startWeb.current = true;
+        } catch (error) {
+          console.error("Error posting log:", error);
+        }
+      }
+    };
+
+    console.log("log test");
+    postLog();
+  }, []);
 
   return (
     <nav
