@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import randomColor from "../utils/randomColor";
 import { ThemeContext } from "../Context/themeContext";
 
@@ -43,6 +43,20 @@ function Customcolor() {
   const handleClick = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!isOpen && window.scrollY > 0) {
+        setIsOpen(true);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [isOpen]);
 
   return (
     <>
