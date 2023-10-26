@@ -26,7 +26,7 @@ const data = [
     name: "Tanakit Kankangboon",
     position: "Developer",
     aboutme:
-      "I am a motivated professional with 4 years of experience in accounting andadministration. Now, I'm excited to take on a new challenge as a front-end and full-stack developer. I have a strong background in financial management andorganization, and I pay great attention to detail. Web development is my passion,and I enjoy coding, creative problem-solving, and creating user-friendly interfaces. Iam dedicated to delivering exceptional web experiences and ready to contribute myadaptability, creativity, and strong work ethic to a collaborative team.",
+      "I am a motivated professional with 4 years of experience in accounting and administration. Now, I'm excited to take on a new challenge as a front-end and full-stack developer. I have a strong background in financial management andorganization, and I pay great attention to detail. Web development is my passion,and I enjoy coding, creative problem-solving, and creating user-friendly interfaces. I am dedicated to delivering exceptional web experiences and ready to contribute myadaptability, creativity, and strong work ethic to a collaborative team.",
     experience: [
       {
         id: 1,
