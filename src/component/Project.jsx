@@ -33,11 +33,8 @@ function Project() {
           Portfolio
         </h2>
         {data[0].recentwork.map((item, index) => (
-          <Framer>
-            <div
-              key={index}
-              className="flex flex-col justify-center w-full max-w-6xl p-6 mx-auto gap-9 md:flex-row md:gap-28"
-            >
+          <Framer key={index}>
+            <div className="flex flex-col justify-center w-full max-w-6xl p-6 mx-auto gap-9 md:flex-row md:gap-28">
               {/* image */}
               <div style={divStyle} className="flex-1 rounded-md">
                 <img
