@@ -110,7 +110,7 @@ const skillset = [
     ],
   },
   {
-    title: "Ongoing Learning",
+    title: "Learning",
     skills: [
       {
         lang: "Typescript",
