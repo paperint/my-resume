@@ -20,6 +20,8 @@ import population from "../assets/img/populationgrowth.png";
 import { BsGithub } from "react-icons/bs";
 import neatly from "../assets/img/neatlyhotel.svg";
 import generator from "../assets/img/generatorpassword.png";
+import touristblog from "../assets/img/touristblogpost.png";
+import lotto from "../assets/img/lotto.png";
 
 const data = [
   {
@@ -160,6 +162,13 @@ const data = [
         image: register,
       },
       {
+        title: "Tourist Blogpost",
+        link: "https://github.com/paperint/touristBlogpost",
+        live: "https://tourist-blogpost.vercel.app/",
+        tools: ["VueJS", "NodeJS", "Express", "Tailwindcss", "DaisyUi"],
+        image: touristblog,
+      },
+      {
         title: "Population Growth",
         link: "https://github.com/paperint/Countrypopulation",
         live: "https://countrypopulation-gules.vercel.app/",
@@ -170,7 +179,7 @@ const data = [
         title: "Multi Step Form",
         link: "https://github.com/paperint/multi-step-form",
         live: "https://merry-granita-5e8c91.netlify.app/",
-        tools: ["Vite", "React", "Tailwindcss"],
+        tools: ["Javascript", "React", "Tailwindcss"],
         image: multiStepForm,
       },
       {
@@ -181,59 +190,66 @@ const data = [
         image: generator,
       },
       {
+        title: "Lotto",
+        link: "https://github.com/paperint/lotto",
+        live: "https://lotto-tanakit.netlify.app/",
+        tools: ["React", "Javascript", "Tailwindcss"],
+        image: lotto,
+      },
+      {
         title: "Static Job Listing",
         link: "https://github.com/paperint/static-job-listing",
         live: "https://dancing-squirrel-25a20f.netlify.app/",
-        tools: ["Vite", "React", "Tailwindcss"],
+        tools: ["Javascript", "React", "Tailwindcss"],
         image: staticJob,
       },
       {
         title: "Rest Countries API",
         link: "https://github.com/paperint/rest-countries-api",
         live: "https://shimmering-macaron-b85fb7.netlify.app/",
-        tools: ["Vite", "React", "Tailwindcss", "axios"],
+        tools: ["Javascript", "React", "Tailwindcss", "axios"],
         image: restCountry,
       },
       {
         title: "Age Calculator",
         link: "https://github.com/paperint/age-calculator",
         live: "https://neon-klepon-c3502a.netlify.app/",
-        tools: ["Vite", "React", "Tailwindcss"],
+        tools: ["Javascript", "React", "Tailwindcss"],
         image: agecalculator,
       },
       {
         title: "Todo App",
         link: "https://github.com/paperint/todo-app",
         live: "https://curious-biscotti-15e8f6.netlify.app/",
-        tools: ["Vite", "React", "Tailwindcss"],
+        tools: ["Javascript", "React", "Tailwindcss"],
         image: todoapp,
       },
       {
         title: "Easybank Landingpage",
         link: "https://github.com/paperint/easybank-landingpage",
         live: "https://extraordinary-buttercream-315853.netlify.app/",
-        tools: ["Vite", "React", "Tailwindcss"],
+        tools: ["Javascript", "React", "Tailwindcss"],
         image: easybank,
       },
       {
         title: "Tip Calculator App",
         link: "https://github.com/paperint/Tip-Calculator",
         live: "https://boisterous-marigold-6ea197.netlify.app/",
-        tools: ["Vite", "React", "Tailwindcss"],
+        tools: ["Javascript", "React", "Tailwindcss"],
         image: tipcalculator,
       },
       {
         title: "E-commerce Product Page",
         link: "https://github.com/paperint/e-commerce-product-page",
         live: "https://sparkling-axolotl-3b5137.netlify.app/",
-        tools: ["Vite", "React", "Tailwindcss"],
+        tools: ["Javascript", "React", "Tailwindcss"],
         image: ecommerce,
       },
       {
         title: "IP Address Tracking Master",
         link: "https://github.com/paperint/ip-address-tracker-master",
         live: "https://tangerine-zuccutto-4a2964.netlify.app/",
-        tools: ["Vite", "React", "Tailwindcss", "Axios"],
+        tools: ["Javascript", "React", "Tailwindcss", "Axios"],
         image: ipAddress,
       },
 
@@ -241,21 +257,21 @@ const data = [
         title: "Newsletter Signup",
         link: "https://github.com/paperint/newsletter-sign-up-with-success-message",
         live: "https://bejewelled-madeleine-3fcf4e.netlify.app",
-        tools: ["Vite", "React", "Tailwindcss"],
+        tools: ["Javascript", "React", "Tailwindcss"],
         image: newsletter,
       },
       {
         title: "Interative CreditCard",
         link: "https://github.com/paperint/interactive-creditcard",
         live: "https://marvelous-lollipop-4c3819.netlify.app",
-        tools: ["Vite", "React", "Tailwindcss"],
+        tools: ["Javascript", "React", "Tailwindcss"],
         image: creditcard,
       },
       {
         title: "Testimonials Grid",
         link: "https://github.com/paperint/testimonials-grid-section",
         live: "https://inspiring-kelpie-61d651.netlify.app",
-        tools: ["Vite", "React", "Tailwindcss", "Grid"],
+        tools: ["Javascript", "React", "Tailwindcss", "Grid"],
         image: testimonial,
       },
       {
@@ -276,21 +292,21 @@ const data = [
         title: "Advice Generator App",
         link: "https://github.com/paperint/Advice-generator-app",
         live: "https://tranquil-horse-53e8bc.netlify.app/",
-        tools: ["Vite", "React", "Tailwindcss", "Axios"],
+        tools: ["Javascript", "React", "Tailwindcss", "Axios"],
         image: advicegenrator,
       },
       {
         title: "News Homepage",
         link: "https://github.com/paperint/news-homepage-main",
         live: "https://monumental-yeot-6bf18a.netlify.app/",
-        tools: ["Vite", "React", "Tailwindcss"],
+        tools: ["Javascript", "React", "Tailwindcss"],
         image: newhomepage,
       },
       {
         title: "Resume",
         link: "https://github.com/paperint/my-resume",
         live: "https://wondrous-churros-b3c5a6.netlify.app",
-        tools: ["Vite", "React", "Tailwindcss"],
+        tools: ["Javascript", "React", "Tailwindcss"],
         image: resume,
       },
     ],
